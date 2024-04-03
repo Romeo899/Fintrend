@@ -1,0 +1,666 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+.mw-1200 {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.mw-1199 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.headline {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.white {
+  color: #fff;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.green-bg {
+  background-color: rgb(189, 255, 89);
+}
+
+.dark-green {
+  color: rgb(146, 190, 81);
+}
+
+.logo {
+  height: 40px;
+}
+
+.logo-small {
+  height: 20px;
+}
+
+/* Mobile - responsive design burger icon property by default it's hidden: */
+.nav-auth-burger-icon {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.green:hover {
+  color: rgb(189, 255, 89);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.nav-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo-container>a {
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+.nav-links>a {
+  margin: 0 1em;
+}
+
+.nav-auth>a {
+  margin: 0 0.5em;
+}
+
+.register {
+  padding: 0.75rem 1rem;
+  background-color: #fff;
+  color: #000;
+  border-radius: 25px;
+  border: none;
+}
+
+.register:hover {
+  background-color: rgb(189, 255, 89);
+}
+
+.main-hero {
+  background-image: url(https://assets.codepen.io/12097685/bg-findtrend-hero.png);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+}
+
+.main-hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-hero-content>h1 {
+  max-width: 400px;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.main-hero-content>h2 {
+  max-width: 600px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: grey;
+  margin-top: 1rem;
+}
+
+.get-started {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background-color: rgb(189, 255, 89);
+  color: #000;
+  font-weight: 800;
+  border-radius: 25px;
+}
+
+.get-started:hover {
+  background-color: #fff;
+}
+
+.main-open-tabs {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(189, 255, 89);
+}
+
+.main-open-tabs>h1 {
+  margin-bottom: 4rem;
+  
+}
+
+.block-container {
+  padding: 2rem 4rem;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.block {
+  padding: 1rem 1rem;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.block h4 {
+  color: #fff;
+  margin-left: 0.5rem;
+  font-size: 14px;
+  font-weight: 400;
+  background: linear-gradient(to right, white 60%, black 85%);
+  background-clip: text;
+  color: transparent;
+}
+
+.x {
+/*   margin-left: 0.2em; */
+  height: 1rem;
+  width: 1.5rem;
+}
+
+.main-open-tabs p {
+  margin-top: 2rem;
+  max-width: 500px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.main-companies {
+  margin-top: 6rem;
+  margin-bottom: 12rem;
+  display: flex;
+/*   justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-companies .headline-main {
+  text-align: left;
+  max-width: 1200px;
+  padding: 4rem 0 8rem 0;
+  font-size: 36px;
+}
+
+.headline-span {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.headline-sub {
+  font-size: 36px;
+  text-align: center;
+/*   max-width: 300px; */
+  margin-bottom: 3rem;
+}
+
+.main-startups-grow {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+ul.main-startups-grow-list {
+  display: grid;
+  margin: 3rem 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.main-startups-grow-list li {
+  display: flex;
+  align-items: center;
+  padding: 10% 15%;
+  background-color: rgb(235, 235, 235);
+}
+
+.grid-img {
+  max-width: 100%;
+}
+
+.main-platforms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+  padding: 5rem;
+}
+
+ul.main-platform-connect-list {
+  margin: 3rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+ .main-platform-connect-list li {
+  padding: 2.5%;
+  max-width: 5%;
+  margin: 1%;
+  background-color: #fff;
+  border-radius: 10px;
+  
+}
+
+.main-platform-connect-list li>img {
+  max-width: 100%;
+}  
+
+.view-more-trends {
+  background-color: #000;
+  padding: 1em 2em;
+  border-radius: 48px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.view-more-trends:hover {
+  color: rgb(189, 255, 89);
+}
+
+.main-deals {
+  padding: 5rem;
+  background-color: #000;
+}
+
+.main-deals-content  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-deals .headline {
+  font-size: 44px;
+  margin: 1rem;
+}
+
+.main-get-deal-switch {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-get-deal-switch h4 {
+  margin: 0 1rem;
+}
+
+.switch {
+  height: 30px;
+  width: 65px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.pin {
+  height: 28px;
+  width: 25px;
+  border-radius: 30px;
+  background-color: rgb(189, 255, 89);
+  margin: 1px 5px;
+}
+
+.main-get-deal-plans {
+  display: flex;
+  justify-content: space-betwen;
+  width: 100%;
+}
+
+.white-plan, .green-plan {
+  height: 400px;
+  width: 250px;
+  border-radius: 11px;
+  padding: 2rem;
+  margin: 0 1rem;
+}
+
+.plan-headline {
+  margin-bottom: 0.25rem;
+}
+
+.plan-subhead {
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+  font-weight: 400;
+}
+
+.plan-price {
+  margin: 1rem 0 2rem 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.plan-features li {
+  margin: 1rem 0;
+  font-size: 12px;
+}
+
+.plan-features li svg {
+  margin-right: 1rem;
+}
+
+a.start-free-trial {
+  display: block;
+  color: #000;
+  background-color: rgb(189, 255, 89);
+  padding: 0.50rem 4rem;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+a.start-free-trial:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.green-start-free-trial {
+  display: block;
+  color: #fff;
+  background-color: #000;
+  padding: 0.50rem 4rem;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.green-start-free-trial:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.second-white-start-free-trial {
+  display: block;
+  color: #000;
+  background-color: rgb(189, 255, 89);
+  padding: 0.50rem 4rem;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 4.2rem;
+}
+
+.second-white-start-free-trial:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.main-join {
+  height: 400px;
+  background-color: rgb(189, 255, 89);
+}
+
+.main-join-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+}
+
+.headline-group {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.black-button {
+  color: #fff;
+  background-color: #000;
+  padding: 0.75rem 2.5rem;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 2.5rem;
+}
+
+.black-button:hover {
+  color: rgb(189, 255, 89);
+}
+
+.footer-wrapper {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-wrapper .footer-wrapper-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  width: 10%;
+}
+
+.footer-logo img {
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.footer-logo-img {
+  height: 40px;
+  margin-right: 0.5rem;
+}
+
+.footer-links a{
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 1rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1199px) {
+  .footer-wrapper-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width:1160px) {
+  a.start-free-trial {
+    display: block;
+    color: #000;
+    background-color: rgb(189, 255, 89);
+    padding: 0.5rem 0rem;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10rem;
+  }
+  
+  a.green-start-free-trial {
+    padding: 0.5rem 0rem;
+    margin-top: 8rem;
+  }
+  
+  a.second-white-start-free-trial {
+    padding: 0.5rem 0rem;
+    margin-top: 4.2rem;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+/*  Adjusting the .main-companies section grid from 4x4 -> 2x8  */
+  .main-companies {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-companies .headline-main {
+  text-align: center;
+  max-width: 800px;
+  padding: 4rem 0 8rem 0;
+  font-size: 28px;
+}
+
+.headline-sub {
+  font-size: 28px;
+  text-align: center;
+/*   max-width: 300px; */
+  margin-bottom: 3rem;
+}
+
+ul.main-startups-grow-list {
+  display: grid;
+  margin: 3rem 0.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  gap: 1rem;
+}
+/*  Adjusting the .main-deals section making the plans look good  */
+  
+  .main-get-deal-plans {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2,3fr);
+  justify-content: space-evenly;
+  width: 100%;
+/*  Maybe ask Cristian to show how to center the main deals.  */
+}
+
+.white-plan, .green-plan {
+  height: 400px;
+  width: 250px;
+  border-radius: 11px;
+  padding: 2rem;
+  margin: 0 3rem;
+}
+  
+  .mw-1100-centered-white-plan {
+    margin: 1rem 50%;
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+  .nav-links {
+    display: none
+  }
+  .nav-auth {
+    display: none;
+  }
+  
+  .nav-auth-burger-icon {
+    display: block;
+    fill:white;
+    width: 25px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  /*  Adjusting the .main-deals section making the plans look good  */
+  
+  .main-get-deal-plans {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3,1fr);
+  justify-content: center;
+  width: 100%;
+    
+    .mw-800 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+  .white-plan, .green-plan {
+  height: 400px;
+  width: 250px;
+  border-radius: 11px;
+  padding: 1rem;
+/*   margin: 0 50%; */
+    
+/*   .mw-1100-centered-white-plan {
+    margin: 1rem 2rem;
+  } */
+    
+  .main-hero-content>h1 {
+  max-width: 200px;
+  text-align: center;
+  margin-top: 5rem;
+  padding: 1rem;
+}
+
+.main-hero-content>h2 {
+  max-width: 100px;
+  min-height: 2rem;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: grey;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.get-started {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background-color: rgb(189, 255, 89);
+  color: #000;
+  font-weight: 800;
+  border-radius: 25px;
+}  
+ h1.headline-open-new-tabs-h1 {
+      width: 100px;
+      padding: 1rem;
+      text-align: center;
+      align-items: center;
+    }  
+/*  Doesn't work for some reason    */
+}
+}
+
+@media only screen and (max-width: 400px) {
+  
+}
